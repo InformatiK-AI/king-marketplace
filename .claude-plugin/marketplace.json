@@ -1,0 +1,20 @@
+{
+  "name": "king-marketplace",
+  "description": "King Framework ecosystem — protocolos RADAR/CASTLE/SDD/Chronicle para Claude Code",
+  "owner": {
+    "name": "InformatiK-AI",
+    "email": "j.salgado2k@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "king-framework",
+      "description": "Framework de desarrollo con IA: protocolos RADAR/CASTLE/SDD/Chronicle, 10 agentes especializados, 36 skills de ciclo de vida completo. /genesis genera infraestructura adaptada a cualquier proyecto.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/InformatiK-AI/king-framework.git"
+      },
+      "homepage": "https://github.com/InformatiK-AI/king-framework"
+    }
+  ]
+}
