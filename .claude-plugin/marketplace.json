@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "king-marketplace",
   "description": "King Framework ecosystem — protocolos RADAR/CASTLE/SDD/Chronicle para Claude Code",
   "owner": {
@@ -25,6 +25,16 @@
         "url": "https://github.com/InformatiK-AI/king-core.git"
       },
       "homepage": "https://github.com/InformatiK-AI/king-core"
+    },
+    {
+      "name": "king-entrepreneur",
+      "description": "Ruta completa para fundar y lanzar un SaaS: /welcome detecta tu perfil, /validate-idea analiza tu mercado, /mvp-accelerator lanza auth + pagos + deploy + landing en un comando.",
+      "category": "entrepreneur",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/InformatiK-AI/king-entrepreneur.git"
+      },
+      "homepage": "https://github.com/InformatiK-AI/king-entrepreneur"
     }
   ]
 }
