@@ -15,6 +15,16 @@
         "url": "https://github.com/InformatiK-AI/king-framework.git"
       },
       "homepage": "https://github.com/InformatiK-AI/king-framework"
+    },
+    {
+      "name": "king-core",
+      "description": "King Core: 47 skills del ciclo SDLC completo — genesis, brainstorm, plan, build, review, qa, merge, release y pipeline SDD. Base del ecosistema King Framework.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/InformatiK-AI/king-core.git"
+      },
+      "homepage": "https://github.com/InformatiK-AI/king-core"
     }
   ]
 }
