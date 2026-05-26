@@ -8,19 +8,7 @@ Marketplace oficial del ecosistema **King Framework** para Claude Code.
 
 ```
 /plugin marketplace add InformatiK-AI/king-marketplace
-/plugin install king-framework@king-marketplace
-```
-
-### Opción 2 — One-liner (macOS/Linux)
-
-```bash
-curl -sSL https://raw.githubusercontent.com/InformatiK-AI/king-framework/main/scripts/remote-install.sh | bash
-```
-
-### Opción 3 — One-liner (Windows PowerShell)
-
-```powershell
-irm https://raw.githubusercontent.com/InformatiK-AI/king-framework/main/scripts/remote-install.ps1 | iex
+/plugin install king-core@king-marketplace
 ```
 
 ---
@@ -29,7 +17,8 @@ irm https://raw.githubusercontent.com/InformatiK-AI/king-framework/main/scripts/
 
 | Plugin | Descripción |
 |--------|-------------|
-| `king-framework` | Protocolos RADAR/CASTLE/SDD/Chronicle · 10 agentes · 36 skills |
+| `king-core` | SDLC completo · 47 skills · 10 agentes · genesis, brainstorm, plan, build, review, qa, merge, release y pipeline SDD |
+| `king-framework` | Protocolos RADAR/CASTLE/SDD/Chronicle · 10 agentes · 36 skills (versión anterior) |
 
 ---
 
@@ -47,5 +36,6 @@ Genera la infraestructura adaptada a tu stack: CLAUDE.md, agentes, índice de sk
 
 ## Más información
 
-- Repositorio: [InformatiK-AI/king-framework](https://github.com/InformatiK-AI/king-framework)
+- king-core: [InformatiK-AI/king-core](https://github.com/InformatiK-AI/king-core)
+- king-framework: [InformatiK-AI/king-framework](https://github.com/InformatiK-AI/king-framework)
 - Autor: InformatiK-AI · j.salgado2k@gmail.com
