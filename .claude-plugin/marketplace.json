@@ -27,6 +27,16 @@
       "homepage": "https://github.com/InformatiK-AI/king-core"
     },
     {
+      "name": "king-arch",
+      "description": "King Arch: arquitectura de software y sistemas distribuidos — clean/hexagonal/DDD/CQRS, event-sourcing, sagas, resiliencia, idempotencia, API contract-first, contract-test-pact, microservice-extract y event-broker. 12 skills extraídas de king-core (requires king-framework).",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/InformatiK-AI/king-arch.git"
+      },
+      "homepage": "https://github.com/InformatiK-AI/king-arch"
+    },
+    {
       "name": "king-entrepreneur",
       "description": "Ruta completa para fundar y lanzar un SaaS: /welcome detecta tu perfil, /validate-idea analiza tu mercado, /mvp-accelerator lanza auth + pagos + deploy + landing en un comando.",
       "category": "entrepreneur",
