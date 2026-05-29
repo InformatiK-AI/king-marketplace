@@ -37,6 +37,16 @@
       "homepage": "https://github.com/InformatiK-AI/king-arch"
     },
     {
+      "name": "king-hub",
+      "description": "King Hub: cliente del marketplace de skills. /hub-search descubre skills (Quality Score ≥40), /hub-install instala con verificación GPG/CRL de fallo atómico, /hub-publish firma y publica, /hub-stats muestra métricas del publicador. Diseño híbrido (CLI + fallback HTTP/GPG). Beta: backend en despliegue. requires king-framework.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/InformatiK-AI/king-hub.git"
+      },
+      "homepage": "https://github.com/InformatiK-AI/king-hub"
+    },
+    {
       "name": "king-entrepreneur",
       "description": "Ruta completa para fundar y lanzar un SaaS: /welcome detecta tu perfil, /validate-idea analiza tu mercado, /mvp-accelerator lanza auth + pagos + deploy + landing en un comando.",
       "category": "entrepreneur",
