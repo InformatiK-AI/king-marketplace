@@ -18,7 +18,7 @@
     },
     {
       "name": "king-core",
-      "description": "King Core: 47 skills del ciclo SDLC completo — genesis, brainstorm, plan, build, review, qa, merge, release y pipeline SDD. Base del ecosistema King Framework.",
+      "description": "King Core: 51 skills del ciclo SDLC completo — genesis, brainstorm, plan, build, review, qa, merge, release y pipeline SDD. Base del ecosistema King Framework.",
       "category": "development",
       "source": {
         "source": "url",
@@ -45,6 +45,56 @@
         "url": "https://github.com/InformatiK-AI/king-entrepreneur.git"
       },
       "homepage": "https://github.com/InformatiK-AI/king-entrepreneur"
+    },
+    {
+      "name": "king-infra",
+      "description": "King Infra: infraestructura backend y observabilidad producción-grade. /auth-scaffold genera autenticación completa (OAuth2, JWT, RBAC, ABAC). /db-migrate gestiona migraciones con rollback y dry-run. /db-seed puebla bases de datos. /db-optimize analiza schema/queries y sugiere índices/caching/particionado. /explain-query diagnostica queries lentas y N+1. /health-check-setup genera endpoints /health y /ready. /tenancy-setup configura multi-tenancy (RLS, ABAC). /publish-package publica a npm/PyPI/Go. /dr-setup configura Disaster Recovery. /cicd-generate genera pipelines CI/CD multi-stack. /observe inyecta OpenTelemetry + Grafana + Prometheus. /slo-define define SLO/error budgets. /feature-flags configura staged rollout.",
+      "category": "infra",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/InformatiK-AI/king-infra.git"
+      },
+      "homepage": "https://github.com/InformatiK-AI/king-infra"
+    },
+    {
+      "name": "king-content",
+      "description": "King Content: creación de contenido web profesional y educación del ecosistema. /blog-setup genera blog headless con SEO completo, /headless-cms-setup configura tu CMS headless, /brand-identity crea sistema de marca con tokens WCAG, /interactive-tutorials guía tutoriales avanzados con verificación paso a paso, /certification prepara las certificaciones King (KFCD/KFCA/KFCSA), /frontend-design (UI moderna + catálogo de diseño 485 records), /a11y-audit y /a11y-fix (accesibilidad WCAG 2.2).",
+      "category": "content",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/InformatiK-AI/king-content.git"
+      },
+      "homepage": "https://github.com/InformatiK-AI/king-content"
+    },
+    {
+      "name": "king-ai",
+      "description": "King AI: stack AI-native completo. /llm-integration (Claude/OpenAI/Gemini, SSE, caching, cost tracking) y /ai-feature-scaffold (chatbot, RAG, búsqueda semántica). /rag-setup (vector DB + eval harness), /ai-safety (prompt injection, PII, OWASP LLM Top 10), /prompt-eval (golden set + LLM-as-judge en CI), /ai-cost-gate (budget + circuit breaker), /ai-observability (OTel GenAI semconv), /ai-audit-ledger, /cost-report y judgment-day (review adversarial). Incluye @ml-engineer con 4 contratos bilaterales.",
+      "category": "ai",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/InformatiK-AI/king-ai.git"
+      },
+      "homepage": "https://github.com/InformatiK-AI/king-ai"
+    },
+    {
+      "name": "king-mobile",
+      "description": "King Mobile: ciclo completo de apps móviles. /mobile-scaffold genera proyectos React Native o Flutter, /mobile-deploy configura CI/CD para App Store y Google Play, /mobile-offline-sync, /mobile-app-store-submit y /mobile-deep-linking cubren offline, publicación en stores y deep links. Agente @mobile con contratos bilaterales + knowledge de mobile-production-patterns.",
+      "category": "mobile",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/InformatiK-AI/king-mobile.git"
+      },
+      "homepage": "https://github.com/InformatiK-AI/king-mobile"
+    },
+    {
+      "name": "king-legal",
+      "description": "King Legal: generación de documentos legales (ToS, Privacy Policy, DPA, Cookie Policy) para proyectos de software — EU (GDPR) y US (CCPA/CalOPPA).",
+      "category": "legal",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/InformatiK-AI/king-legal.git"
+      },
+      "homepage": "https://github.com/InformatiK-AI/king-legal"
     }
   ]
 }
